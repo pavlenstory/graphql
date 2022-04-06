@@ -1,0 +1,27 @@
+{
+  "name": "graphql",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon server/app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pavlenstory/graphql.git"
+  },
+  "author": "Pavel Andreikovets",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/pavlenstory/graphql/issues"
+  },
+  "homepage": "https://github.com/pavlenstory/graphql#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.17.3",
+    "express-graphql": "^0.12.0",
+    "graphql": "^16.3.0",
+    "mongoose": "^6.2.10",
+    "nodemon": "^2.0.15"
+  }
+}
